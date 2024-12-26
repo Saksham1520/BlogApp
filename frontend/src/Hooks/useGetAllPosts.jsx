@@ -9,7 +9,7 @@ function useGetAllPosts() {
     const fetchedAllPosts = async () => {
       try {
         const res = await axios.get(
-          "http://13.202.119.82:8000//api/getAllPosts",
+          "http://13.202.119.82:8000/api/getAllPosts",
           {
             withCredentials: true,
           }

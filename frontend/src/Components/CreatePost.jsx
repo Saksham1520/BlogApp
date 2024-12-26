@@ -20,7 +20,7 @@ function CreatePost() {
     try {
       dispatch(setLoading(true));
       const res = await axios.post(
-        "http://13.202.119.82:8000//api/createpost",
+        "http://13.202.119.82:8000/api/createpost",
         postInput,
         {
           headers: {

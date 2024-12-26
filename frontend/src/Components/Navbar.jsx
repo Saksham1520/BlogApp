@@ -93,7 +93,7 @@ function Navbar() {
         <div className="md:hidden space-y-4 py-4">
           <div className="flex flex-col items-center justify-center">
             <Link to="/" className="px-6 py-2">
-              Home
+              All Posts
             </Link>
             <Link to="/createpost" className="px-6 py-2">
               Create Post
