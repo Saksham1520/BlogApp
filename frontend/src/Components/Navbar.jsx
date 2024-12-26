@@ -16,7 +16,7 @@ function Navbar() {
 
   const logoutHandler = async () => {
     try {
-      const res = await axios.get("http://localhost:8000/api/logout", {
+      const res = await axios.get("http://13.202.119.82:8000/api/logout", {
         withCredentials: true,
       });
       if (res.data.success) {

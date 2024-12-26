@@ -13,7 +13,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 app.use(cookieParser())
 const corsOptions = {
-    origin: 'http://localhost:5173',
+    origin: 'https://d1uqa2o6prlhrw.cloudfront.net',
     credentials: true
 }
 app.use(cors(corsOptions))

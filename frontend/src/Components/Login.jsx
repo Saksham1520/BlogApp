@@ -26,7 +26,7 @@ function Login() {
     try {
       dispatch(setLoading(true));
       const res = await axios.post(
-        "http://localhost:8000/api/login",
+        "http://13.202.119.82:8000//api/login",
         loginInput,
         {
           headers: {

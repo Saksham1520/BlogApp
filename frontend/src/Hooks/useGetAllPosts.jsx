@@ -8,9 +8,12 @@ function useGetAllPosts() {
   return useEffect(() => {
     const fetchedAllPosts = async () => {
       try {
-        const res = await axios.get("http://localhost:8000/api/getAllPosts", {
-          withCredentials: true,
-        });
+        const res = await axios.get(
+          "http://13.202.119.82:8000//api/getAllPosts",
+          {
+            withCredentials: true,
+          }
+        );
         if (res.data.success) {
           dispatch(setAllPosts(res.data.posts));
         }

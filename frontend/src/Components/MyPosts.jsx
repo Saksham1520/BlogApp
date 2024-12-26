@@ -23,7 +23,7 @@ function MyPosts() {
     try {
       dispatch(setLoading(true));
       const res = await axios.delete(
-        `http://localhost:8000/api/deletepost/${postId}`,
+        `http://13.202.119.82:8000/api/deletepost/${postId}`,
         {
           withCredentials: true,
         }
@@ -50,7 +50,7 @@ function MyPosts() {
     try {
       dispatch(setLoading(true));
       const res = await axios.put(
-        `http://localhost:8000/api/updatepost/${postId}`,
+        `http://13.202.119.82:8000/api/updatepost/${postId}`,
         updateInput,
         {
           withCredentials: true,
