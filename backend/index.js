@@ -13,7 +13,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 app.use(cookieParser())
 const corsOptions = {
-    origin: 'https://d1uqa2o6prlhrw.cloudfront.net',
+    origin: 'http://mern-react-blogapp.s3-website.ap-south-1.amazonaws.com',
     credentials: true
 }
 app.use(cors(corsOptions))
